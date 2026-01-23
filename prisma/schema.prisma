@@ -28,4 +28,6 @@ model Evenement {
   lieu   Lieu     @relation(fields: [lieuId], references: [id])
   typeId Int      @unique
   type   Type     @relation(fields: [typeId], references: [id])
+  dateDebut DateTime
+  dateFin DateTime
 }
