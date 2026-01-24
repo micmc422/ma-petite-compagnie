@@ -32,11 +32,11 @@ model Compagnie {
 model Evenement {
   id     Int      @id @default(autoincrement())
   nom    String
-  compagnieId Int @unique
+  compagnieId Int
   compagnie Compagnie @relation(fields: [compagnieId], references: [id])
-  lieuId Int      @unique
+  lieuId Int
   lieu   Lieu     @relation(fields: [lieuId], references: [id])
-  typeId Int      @unique
+  typeId Int
   type   Type     @relation(fields: [typeId], references: [id])
   participants ParticipantsEvenement[]
   dateDebut DateTime
@@ -46,9 +46,9 @@ model Evenement {
 
 model ParticipantsEvenement {
   id     Int      @id @default(autoincrement())
-  utilisateurId  Int @unique
+  utilisateurId  Int
   utilisateur  UtilisateurBouchon  @relation(fields: [utilisateurId], references: [id])
-  evenementId Int @unique
+  evenementId Int
   evenement Evenement @relation(fields: [evenementId],references: [id])
 }
 
