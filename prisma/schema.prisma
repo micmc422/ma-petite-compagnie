@@ -28,8 +28,7 @@ model Categorie {
 model Compagnie {
   id    Int      @id @default(autoincrement())
   nom   String
-  membreId Int @unique
-  membres  UtilisateurBouchon  @relation(fields: [membreId], references: [id])
+  membres UtilisateurBouchon[]
   evenements Evenement[]
   categoriesEvenement Categorie[]
   lieuxEvenement Lieu[]
@@ -63,6 +62,7 @@ model ParticipantsEvenement {
 model UtilisateurBouchon {
   id    Int      @id @default(autoincrement())
   evenements  ParticipantsEvenement[]
-  compagnie Compagnie?
+  compagnieId Int
+  compagnie Compagnie @relation(fields: [compagnieId], references: [id])
   droitModificationPlanification  Boolean @default(false)
 }
