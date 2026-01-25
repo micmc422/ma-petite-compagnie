@@ -15,10 +15,12 @@ model Lieu {
   evenements   Evenement[]
 }
 
-model Type {
+model Categorie {
   id         Int         @id @default(autoincrement())
   nom        String
   evenements Evenement[]
+  idCompagnie Int
+  compagnie Compagnie @relation(fields: [idCompagnie], references: [id])
 }
 
 model Compagnie {
@@ -27,6 +29,7 @@ model Compagnie {
   membreId Int @unique
   membres  UtilisateurBouchon  @relation(fields: [membreId], references: [id])
   evenements Evenement[]
+  categoriesEvenement Categorie[]
 }
 
 model Evenement {
@@ -36,8 +39,8 @@ model Evenement {
   compagnie Compagnie @relation(fields: [compagnieId], references: [id])
   lieuId Int
   lieu   Lieu     @relation(fields: [lieuId], references: [id])
-  typeId Int
-  type   Type     @relation(fields: [typeId], references: [id])
+  categorieId Int
+  categorie   Categorie     @relation(fields: [categorieId], references: [id])
   participants ParticipantsEvenement[]
   dateDebut DateTime
   dateFin DateTime
