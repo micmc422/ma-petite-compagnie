@@ -32,6 +32,7 @@ export default function Home() {
           <Heading as="h2" size="2xl" mb={4}>
             Composants
           </Heading>
+          <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Text>
         </Box>
 
         <Box>
