@@ -227,10 +227,15 @@ export default function Home() {
               <Card title="Badges">
                 <Card.Body>
                   <Stack direction="row" gap={2}>
-                    <Badge colorPalette="green">Success</Badge>
-                    <Badge colorPalette="orange">Warning</Badge>
-                    <Badge colorPalette="red">Error</Badge>
-                    <Badge colorPalette="blue">Info</Badge>
+                    <Badge>Defaut</Badge>
+                    <Badge colorPalette="green">Vert</Badge>
+                    <Badge colorPalette="orange">Orange</Badge>
+                    <Badge colorPalette="red">Rouge</Badge>
+                    <Badge colorPalette="blue">Bleu</Badge>
+                    <Badge colorPalette="purple">Violet</Badge>
+                    <Badge colorPalette="yellow">Jaune</Badge>
+                    <Badge colorPalette="cyan">Cyan</Badge>
+                    <Badge colorPalette="pink">Rose</Badge>
                   </Stack>
                 </Card.Body>
               </Card>
