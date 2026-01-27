@@ -43,5 +43,5 @@ export const StyledCardBody = styled(CardBody)`
 export const StyledCardTitle = styled(CardTitle)`
   font-size: 1.5rem;
   font-weight: bold;
-  font-family: georgian;
+  font-family: Georgia;
 `;
