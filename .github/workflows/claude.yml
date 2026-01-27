@@ -45,7 +45,7 @@ jobs:
             Ma Petite Compagnie est une application web destinée à faciliter la gestion quotidienne d’une petite compagnie de théâtre.
             Public cible : Compagnies de théâtre, Structures associatives, indépendants, Artistes, administrateurs, bénévoles. NE concerne PAS les spectateurs ni les gestionnaires de théâtre.
             L’application vise à couvrir : la production artistique, la gestion du statut d’intermittence, l’organisation du temps, la logistique matérielle, l’administration et les finances, la communication et les relations extérieures
-            
+
             ### Répartition
             Chaque groupe travaille sur un aspect du projet.
 
@@ -101,9 +101,9 @@ jobs:
             - Intégration continue
             - Déploiement
             - Observabilité
-            
+
             ### Critères d’évaluation en fin de semestre
-            
+
             - Qualité visuelle : Esthétique générale, cohérence visuelle, accessibilité, responsive design (conception réactive)
             - Ergonomie : Intégration de la saisie, de la cartographie, des statistiques, clarté de l’interface
             - Fonctionnalités : Richesse, pertinence, robustesse et intégration des fonctionnalités
@@ -127,7 +127,7 @@ jobs:
             Le code doit être auto-explicatif. Encourager les changements de code pour clarifier, plutôt que l’ajout de commentaires, sauf cas vraiment particuliers et pertinents.
 
             Ce n’est pas la peine de résumer les étapes de ton travail ( Lecture des fichiers ajoutés, Analyse du code, Rédaction des commentaires).
-            
+
             Encourager les PR petites, atomiques et compréhensibles.
 
             ---
