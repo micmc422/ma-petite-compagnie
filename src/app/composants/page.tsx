@@ -247,6 +247,21 @@ export default function Home() {
                       <Alert.Title>Note:</Alert.Title>
                       <Alert.Description>Everything is running smoothly.</Alert.Description>
                     </Alert>
+                    <Alert status="success">
+                      <Alert.Icon />
+                      <Alert.Title>Note:</Alert.Title>
+                      <Alert.Description>Everything is running smoothly.</Alert.Description>
+                    </Alert>
+                    <Alert status="warning">
+                      <Alert.Icon />
+                      <Alert.Title>Note:</Alert.Title>
+                      <Alert.Description>Everything is running smoothly.</Alert.Description>
+                    </Alert>
+                    <Alert status="error">
+                      <Alert.Icon />
+                      <Alert.Title>Note:</Alert.Title>
+                      <Alert.Description>Everything is running smoothly.</Alert.Description>
+                    </Alert>
                   </Stack>
                 </Card.Body>
               </Card>
