@@ -48,6 +48,17 @@ jobs:
 
             Pour chaque remarque, explique POURQUOI c'est important et donne un exemple concret.
 
+            ## IMPORTANT : Ce qu'il ne faut PAS faire
+
+            - PAS de remplissage : ne commente que ce qui est utile et actionnable
+            - PAS de félicitations creuses ("Bravo !", "Excellent !", "Super travail !")
+            - PAS de conseils génériques hors sujet (README, CI/CD, partage avec les autres groupes...)
+            - PAS de section "Concepts abordés" ou équivalent
+            - PAS de commentaires sur ce qui fonctionne déjà bien - concentre-toi sur les problèmes
+            - NE PAS recommander d'ajouter des commentaires au code ! Le code doit être auto-explicatif. Sauf cas vraiment particuliers et pertinents.
+            - NE PAS commenter un non-problème (ex: un formatage correct, une config standard)
+            - Si la PR est bonne et qu'il n'y a rien à dire, dis-le en une phrase et c'est tout
+
             ---
 
             ## 1. Cohérence avec l'existant
