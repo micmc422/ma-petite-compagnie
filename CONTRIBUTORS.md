@@ -14,6 +14,7 @@ Projet « Techno Web » de la Licence 3 Informatique - Université Jean-Françoi
 - [Enzo Cluzel](https://github.com/enzo2900) - enzo.cluzel10@gmail.com
 - [David Mougel](https://naflows.com) - mougel.david@naflows.com
 - [Dorian Labaste](https://github.com/D0lab) - dorian.labaste@etud.univ-jfc.fr
+- [Enzo Cluzel](https://github.com/enzo2900) - enzo.cluzel10@gmail.com
 - Illia Shuldieshov - shuldeshovwork013@gmail.com
 - Matéo Faussurier - mateo.faussurier@iut-rodez.fr
 - [Matys Laurent](https://github.com/SyMat12) - matys.laurent@etud.univ-jfc.fr
